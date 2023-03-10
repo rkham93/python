@@ -1,0 +1,13 @@
+{"Funny":
+    {
+    "innerBrace":"<",
+    "outerBrace":">",
+    "Story":"I was on my way to the <place> yesterday, where I went to pick up <noun>, When I noticed that all the <plural object> near the <place> were <color>. It was <name of season> indeed."
+    },
+"Star Wars":
+    {
+    "innerBrace":"{",
+    "outerBrace":"}",
+    "Story":"Yoda is a Jedi {noun} who trained Jedi for {noun: large number} years about how to use The {noun}. He is known for his {adjective} size, {adjective:color} skin and {adjective} way of {verb -ing} words."
+    }
+}
