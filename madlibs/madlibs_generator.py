@@ -30,13 +30,10 @@ def MadLibs(Story):
     delay(1)
     print('The results are ready ...')
     newLine(1)
-    Print(Story)
     delay(1)
     newLine(1)
+    return Story
 
 Story='I was on my way to the <place> yesterday, where I went to pick up <noun>, When I noticed that all the <plural object> near the <place> were <color>. It was <name of season> indeed.'
-MadLibs(Story)
-
-  
-
-
+mablibs_generated=MadLibs(Story)
+Print(mablibs_generated)
