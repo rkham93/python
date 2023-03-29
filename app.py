@@ -1,9 +1,9 @@
-from mad_libs import madlibs_main
-from number_guesser import number_guesser_main
+from MadLibs import madlibs
+from GuessTheNumber import number_guesser
+from HangMan import hangman
 
+gameList={"Guess the number":number_guesser,"Hang Man":hangman,"Mad Libs":madlibs}
 if __name__ =="__main__":
-    userInput=input('Which game do you want to play?\n1.Mad Libs\n2.Number Guessing\n')
-    if int(userInput)==1:
-        madlibs_main.startGame()
-    else:
-        number_guesser_main.startGame()
+    userInput=int(input('Which game do you want to play?\n'+"\n".join(list(gameList.keys()))+'\n'))
+    userInput-=1
+    gameList[list(gameList.keys())[userInput]].main()

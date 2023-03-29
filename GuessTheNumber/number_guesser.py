@@ -9,12 +9,10 @@ import json
 rangeStart=10
 rangeEnd=20
 winningNumber=random.randint(rangeStart,rangeEnd)
-# score=10
-# turns=1
-# userInput=''
+
 
 def addToScoreBoard(userName,score,turns):
-    filename="number_guesser\scoreboard.json"
+    filename="GuessTheNumber\scoreboard.json"
     scoreCard={userName:{'score':score,'turns':turns}}
     with open(filename,'a') as file: 
         file.write(json.dumps(scoreCard,indent=4)+',')        
@@ -23,8 +21,8 @@ def addToScoreBoard(userName,score,turns):
 def takeUserInput ():    
     return input("Please enter number between {rangeStart} & {rangeEnd}: ".format(rangeStart= rangeStart,rangeEnd=rangeEnd))
 
-def startGame(userInput='',score=10,turns=1):
-    userInput
+def main(userInput='',score=10,turns=1):
+
     userName=input("Please enter your name: ")
     while userInput!=winningNumber:
         userInput=takeUserInput ()
@@ -47,8 +45,7 @@ def startGame(userInput='',score=10,turns=1):
                     print("Go Lower!")
         else:
             print("That wasn't a number")
-
     addToScoreBoard(userName,score,turns)
 
 if __name__ =="__main__":
-    startGame()
+    main()

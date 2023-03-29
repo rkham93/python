@@ -14,7 +14,7 @@ Todo:
 1. Create a scoreboard manager to manage the scores by different users. 
 2. Themes in Madlibs should be increased to 5.
 3. Give the option to exit the game at any point.
-4. Give the option to listen to the rules at any point.
+4. Give the option to display the rules at any point.
 5. Have the utilities now limited to madlibs to be used for all the games.
 
 Ambitious:

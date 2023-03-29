@@ -1,9 +1,8 @@
-
 import json
-from mad_libs.utils import Print, delay, newLine
+from MadLibs.utils import Print, delay, newLine
 
 def setTheme():
-    file=open("mad_libs\Themes.json")
+    file=open("MadLibs\Themes.json")
     Themes=json.load(file)
     ThemesList=list(Themes.keys())
     InputStatement='Please select a theme from the following:\n'
@@ -45,7 +44,7 @@ def MadLibs(Story,innerBrace,outerBrace):
     delay('large')
     Print(Story)
 
-def startGame():
+def main():
     theme=setTheme()
     innerBrace=theme["innerBrace"]
     outerBrace=theme["outerBrace"]
@@ -53,5 +52,5 @@ def startGame():
     MadLibs(Story,innerBrace,outerBrace)
 
 if __name__ == "__main__":
-    startGame()
+    main()
  
