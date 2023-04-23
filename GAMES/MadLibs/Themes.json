@@ -1,0 +1,32 @@
+{
+    "The Hilarious Mishap": {
+        "innerBrace": "[",
+        "outerBrace": "]",
+        "Story": "One [adjective] day, [name] decided to go on a [adjective] adventure. They packed a bag with [plural_noun] and set out into the [adjective] wilderness. After a few hours of hiking, [name] stumbled upon a [adjective] cave. Being the [adjective] curious person they are, [name] decided to explore the cave. However, they soon realized that they were not alone. Out of nowhere, a [adjective] bear appeared and started chasing [name]. [name] ran as fast as they could, but they ended up tripping over a [noun] and falling flat on their face. The bear caught up to [name], but instead of attacking, it started to [verb]. Confused, [name] slowly got up and realized that the bear was actually a [adjective] person in a bear suit! [name] and the bear-person [verb] all the way back to town, where they ended up having a [adjective] dance party with all of their [plural_noun]. And that [was] the [adjective] mishap of [name]'s [adjective] adventure!"
+    },
+    "A Galactic Adventure": {
+        "innerBrace": "{",
+        "outerBrace": "}",
+        "Story": "A long time ago in a {noun} far, far away, there was a {adjective} Jedi named {name}. {name} had a mission to save the galaxy from the {adjective} forces of the evil {noun}. {name} set out on their {adjective} starship, the {noun}, with their trusty {adjective} droid, {droid_name}, by their side. Along the way, they encountered many {adjective} obstacles, including {plural_noun} and {adjective} space pirates. Finally, {name} arrived at the {adjective} planet where the {noun} was being kept. They snuck into the {adjective} fortress, dodging {plural_noun} and {adjective} laser beams. {name} finally reached the {noun} and engaged in a {adjective} lightsaber battle with the {adjective} Sith Lord, {sith_name}. In the end, {name} emerged victorious and saved the galaxy from the {adjective} threat of the {noun}. They returned to their home planet as a {adjective} hero, celebrated by all of their {plural_noun} for their {adjective} bravery and courage."
+    },
+    "Pizza Pizza": {
+        "innerBrace": "<",
+        "outerBrace": ">",
+        "Story": "Pizza was invented by a <adjective> <nationality> chef named <person> . To make a pizza, you need to take a lump of <noun>, and make a thin, round <adjective> <noun>. Then you cover it with <adjective> sauce, <adjective> cheese, and fresh chopped <plural noun>. Next you have to bake it in a very hot <noun>. When it is done, cut it into <number> <shapes>. SOme kids like <food> pizza the best, but my favourite is the <food> pizza. If I could, I would eat pizza <number> times a day!"
+    },
+    "Mr. Snowman": {
+        "innerBrace": "(",
+        "outerBrace": ")",
+        "Story": "Let's build a snowman! First we ned to have a really (adjective) snowstrom, of course on a (adjective) day. Watching all that (color) snow fll makes me (verb) for a bowl of (adjective) (vegetable)! (exclamation) it's still (verb/ing) to go out in the cold. Once that is done, we need to get busy. We make a (noun) and (verb) it in the (place). It gets so (adjective) we can't roll it anymore. Then we do (number) more and stack them on top of each other. We (verb) for (noun) in the driveway for the (noun), eyes and (noun). Mom gives us a scarf, har and a (vegetable) to complete Mr (person)! (excalamation) he's done!"
+    },
+    "A Day at the Beach": {
+        "innerBrace": "[",
+        "outerBrace": "]",
+        "Story": "It was a [adjective] day at the beach. The sun was shining [adverb], and the waves were [adjective] and [adjective]. I was feeling [adjective] as I walked down the sandy [noun] and found a spot to lay my [noun]. I [verb] my toes in the warm sand and listened to the sound of the [noun] crashing against the shore. Suddenly, I heard a loud [noun] and looked up to see a [adjective] [noun] flying overhead. It was a [adjective] sight! After a while, I decided to take a [adjective] swim in the ocean. The water was [adjective] and refreshing, and I felt [adverb] alive as I swam through the waves. As I [verb] back to the shore, I noticed a group of [adjective] people playing [noun] on the beach.Feeling [adjective], I joined in the fun and soon found myself laughing and [verb] with the group. We played [adjective] games and even built a [adjective] [noun] together. It was a [adjective] day filled with [noun] and [noun], and I'll never forget it! I hope you had fun with this Mad Libs story! Remember, you can always mix up the words and add your own creative flair to make the story even more interesting."
+    },
+    "My Best Furry Friend": {
+        "innerBrace": "{",
+        "outerBrace": "}",
+        "Story": "I have a {adjective} dog named {dog_name}. {Dog_name} is a {adjective} breed with {color} fur and {adjective} eyes. {Dog_name} is always {verb_ending_in_ing} and loves to {verb}. {They} are {adjective} and always ready for a {adjective} adventure. {Dog_name} loves to play with {plural_noun} and {verb} in the {noun}. {They} are also very {adjective} and {verb} to give me {adjective} doggy kisses. When I'm feeling {adjective}, {dog_name} always knows how to {verb} me up. I love my {adjective} dog more than anything in the {noun}. {They} are truly my best furry friend!"
+    }
+}

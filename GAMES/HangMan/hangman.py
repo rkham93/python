@@ -1,9 +1,12 @@
-word='strawberry'
+from random import randint
+software_dev_words = ['architecture', 'programming', 'development', 'optimization', 'debugging', 'refactoring', 'integration', 'repository', 'methodology', 'abstraction']
+
+word=software_dev_words[randint(0,len(software_dev_words)-1)]
 wordLength=len(word)
 
 def chancesCalculator(word):
     Dict={}
-    room_for_error=3
+    room_for_error=5
     chances=len(word)+room_for_error
 
     for letter in word:
@@ -13,8 +16,6 @@ def chancesCalculator(word):
 
     chances-=sum(list(Dict.values()))
     return chances
-
-
 
 def Blanks(wordLength):
     return '#'*wordLength
@@ -64,6 +65,7 @@ def main():
             break
     else:
         print("Out of chances to play!!")
+        print("Your word was: {word}".format(word=word))
 
 
 if __name__=="__main__":

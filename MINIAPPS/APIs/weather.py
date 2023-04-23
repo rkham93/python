@@ -1,4 +1,4 @@
-key="a7d3747169cbb4ca7544fc442b2828e6"
+key="<your api key>"
 import requests
 def get_city_coordinates(city):
     response=requests.get("http://api.openweathermap.org/geo/1.0/direct?q={city}&limit=1&appid={API}".format(API=key,city=city))

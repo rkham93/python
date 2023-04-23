@@ -23,7 +23,6 @@ def takeUserInput ():
 
 def main(userInput='',score=10,turns=1):
 
-    userName=input("Please enter your name: ")
     while userInput!=winningNumber:
         userInput=takeUserInput ()
         if userInput.isnumeric():
@@ -45,7 +44,7 @@ def main(userInput='',score=10,turns=1):
                     print("Go Lower!")
         else:
             print("That wasn't a number")
-    addToScoreBoard(userName,score,turns)
+
 
 if __name__ =="__main__":
     main()

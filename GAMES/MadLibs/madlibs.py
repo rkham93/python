@@ -1,8 +1,9 @@
 import json
-from MadLibs.utils import Print, delay, newLine
+
+from utils import Print, delay, newLine
 
 def setTheme():
-    file=open("MadLibs\Themes.json")
+    file=open("GAMES\MadLibs\Themes.json")
     Themes=json.load(file)
     ThemesList=list(Themes.keys())
     InputStatement='Please select a theme from the following:\n'
